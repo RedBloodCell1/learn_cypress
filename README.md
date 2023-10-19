@@ -1,4 +1,4 @@
-Day 1:
+Day 1: 0:00:00 - 1:06:32 (2 hours 47 minutes of study)
 
 Today, im gonna learn all the basic things about Cypress and write all the important information here.
 
@@ -77,3 +77,5 @@ What i learn:
 
 - You don't want to write test that rely on something like css class that change a lot (To make it not flaky). Meaning if something changed a little bit, you dont want the code to break on something not trivial at all. you want to use most of the time data-test.
 - npx cypress open = to open cypress app
+
+So today i have learned enough to understand the fundamentals of cypress, next, i will be finishing all the video and learn detox for the next one. Talking about detoxxxx...... Okay i have not been detoxing for a while but i guess its gonna be fine. I will be more responsible and actually study a lot. See you guys tomorrow
