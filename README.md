@@ -77,5 +77,45 @@ What i learn:
 
 - You don't want to write test that rely on something like css class that change a lot (To make it not flaky). Meaning if something changed a little bit, you dont want the code to break on something not trivial at all. you want to use most of the time data-test.
 - npx cypress open = to open cypress app
+- npm run dev = to start app
 
 So today i have learned enough to understand the fundamentals of cypress, next, i will be finishing all the video and learn detox for the next one. Talking about detoxxxx...... Okay i have not been detoxing for a while but i guess its gonna be fine. I will be more responsible and actually study a lot. See you guys tomorrow
+
+Day 2: 1:06:32 - 2:39:32 (2 hours 30 minute of study)
+
+So today, i will try my best to finish the cypress tutorial. After i finish this thing, the next thing to do is simply finishing all of my homework and the day is done. Lets start.
+
+What i learn today:
+
+- Retry-ability is important
+- use Alias (.as()) if there is a lot of repetition within a test and use .get(@'alias_name') to use the alias again
+- if i want to find a text within a page, just use .contains() ??????
+- We can easily write test across page. We can also assert our path location
+- Cypress provides different ways of working with network request. One way is by using intercepts
+
+Useful method:
+
+- its() can return what index or an object
+
+Component Testing:
+
+- Cypress allow us to test individual component of your app via component test
+- Cypress component testing use the same test runner, commands, and API to test components instead of pages
+- The main difference is that it uses a development server instead of rendering within a complete website. This result in faster tests and fewer dependencies on infrastructure than e2e tests covering the same code paths
+- For additional configuration, it might be needed to configured. But cypress is gg so normally it detects things for you
+- Instead of visiting, we are just going to mount component using cy.mount(). And you can just interact and make assertions as you would in E2E test.
+
+Best Practices (Recommended by Cypress):
+
+1. Test unhappy paths: Make sure to test how the user might use your app maliciously or actions that might not be common
+2. Use stable selectors: Use data-\* attributes to provide context to your selectors and isolate them from CSS or JS changes. Don't target element based on CSS attributes, Dont target elements that may change their textContent, and Don't use generic selector. And don't couple it to styles
+3. Do not assign return values
+4. Do not test external websites
+5. Keep your test independent. Dont make test dependent to each other.
+6. Do not worry about writing tiny test
+7. Clean up state before tests run
+8. Don't use arbitary cy.wait() instead use route alias
+
+---
+
+Okay thats all for cypress. I understand how the basics work, if i dont understand something i can just google it, as simple as that. I think all the fundamentals and basics is okay now. I should do my homework and learn about detox next. I think detox will be harder but who knows right? Everything will be easy once i understand. Okay to be honest testing is not fun, but something fun about it is, You only need to do it once and once its completed, you will get this sense of accomplishment seeing all green in your test. Okay see you next time. Bye.
