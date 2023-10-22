@@ -119,3 +119,7 @@ Best Practices (Recommended by Cypress):
 ---
 
 Okay thats all for cypress. I understand how the basics work, if i dont understand something i can just google it, as simple as that. I think all the fundamentals and basics is okay now. I should do my homework and learn about detox next. I think detox will be harder but who knows right? Everything will be easy once i understand. Okay to be honest testing is not fun, but something fun about it is, You only need to do it once and once its completed, you will get this sense of accomplishment seeing all green in your test. Okay see you next time. Bye.
+
+---
+
+Hello again, its just an update. I don't find a really good video that teaches about detox testing. But i see some similarity like using describe and it block. So today im going to review more about cypress first so it will still be fresh in my memory.
